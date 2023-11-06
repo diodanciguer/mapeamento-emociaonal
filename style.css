@@ -1,0 +1,135 @@
+/* Estilo para o corpo do formulário */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o formulário */
+#formulario {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para as perguntas */
+.pergunta {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.pergunta h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0074d9; /* Azul escuro */
+}
+
+/* Estilo para as respostas */
+.respostas {
+    display: flex;
+    flex-direction: column;
+}
+
+.resposta {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.resposta input {
+    margin-right: 10px;
+}
+
+/* Estilo para o botão calcular */
+#calcular {
+    display: block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+#calcular:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o resultado */
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ddd;
+}
+
+/* Estilo para melhorar a legibilidade do resultado */
+.resultado-categoria {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333; /* Cor de texto mais escura */
+}
+
+.resultado-valor {
+    font-size: 24px;
+    color: #0074d9; /* Cor azul escura para valores */
+}
+/* Estilo para as categorias */
+.categoria {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.auto-percepcao {
+    background-color: #FF6B6B; /* Vermelho */
+    color: #FFFFFF; /* Texto branco */
+}
+
+.autoexpressao {
+    background-color: #6BB9FF; /* Azul */
+    color: #FFFFFF; /* Texto branco */
+}
+
+.relacoes-interpessoais {
+    background-color: #A3FF85; /* Verde */
+    color: #333333; /* Texto preto */
+}
+
+.tomada-de-decisao {
+    background-color: #D88AFF; /* Roxo */
+    color: #FFFFFF; /* Texto branco */
+}
+
+.gerenciamento-de-emocoes {
+    background-color: #FFD500; /* Amarelo */
+    color: #333333; /* Texto preto */
+}
+
+/* Estilo para o resultado */
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
